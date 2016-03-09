@@ -1,16 +1,14 @@
 package com.example.tune.kaafit;
 
-import android.app.Fragment;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-/**
- * Created by tune on 09/03/16.
- */
-public class SampleSlide extends Fragment{
+public class SampleSlide extends Fragment {
+
     private static final String ARG_LAYOUT_RES_ID = "layoutResId";
 
     public static SampleSlide newInstance(int layoutResId) {
@@ -40,4 +38,5 @@ public class SampleSlide extends Fragment{
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         return inflater.inflate(layoutResId, container, false);
     }
+
 }
