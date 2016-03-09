@@ -8,15 +8,20 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+<<<<<<< HEAD
+        <activity android:name=".Splash">
+=======
         <activity android:name=".MainActivity"
             android:label="@string/app_intro"
             >
+>>>>>>> 5980c69d539e47e5324cc11fefd15ea39bb41e48
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".MainActivity"/>
     </application>
 
 </manifest>
