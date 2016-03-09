@@ -42,14 +42,22 @@ public class MainActivity extends AppIntro {
         setVibrateIntensity(30);
     }
 
+    private void loadMainActivity(){
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+    }
+
     @Override
     public void onSkipPressed() {
         // Do something when users tap on Skip button.
+        loadMainActivity();
+        Toast.makeText(getApplicationContext(), getString(R.string.skip), Toast.LENGTH_SHORT).show();
     }
 
     @Override
     public void onDonePressed() {
         // Do something when users tap on Done button.
+        loadMainActivity();
     }
 
     @Override
