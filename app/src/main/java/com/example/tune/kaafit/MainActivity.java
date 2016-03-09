@@ -33,23 +33,32 @@ public class MainActivity extends AppIntro {
         setSeparatorColor(Color.parseColor("#2196F3"));
 
         // Hide Skip/Done button.
-        showSkipButton(false);
-        setProgressButtonEnabled(false);
+        showSkipButton(true);
+        showDoneButton(true);
+//        setProgressButtonEnabled(true);
 
         // Turn vibration on and set intensity.
         // NOTE: you will probably need to ask VIBRATE permisssion in Manifest.
-        setVibrate(true);
-        setVibrateIntensity(30);
+//        setVibrate(true);
+//        setVibrateIntensity(30);
+    }
+
+    private void loadMainActivity(){
+        Intent intent = new Intent(this, main.class);
+        startActivity(intent);
     }
 
     @Override
     public void onSkipPressed() {
         // Do something when users tap on Skip button.
+        Toast.makeText(getApplicationContext(), getString(R.string.skip), Toast.LENGTH_SHORT).show();
+        loadMainActivity();
     }
 
     @Override
     public void onDonePressed() {
         // Do something when users tap on Done button.
+        loadMainActivity();
     }
 
     @Override
