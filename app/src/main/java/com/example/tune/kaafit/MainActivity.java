@@ -35,12 +35,12 @@ public class MainActivity extends AppIntro {
         // Hide Skip/Done button.
         showSkipButton(true);
         showDoneButton(true);
-        setProgressButtonEnabled(true);
+//        setProgressButtonEnabled(true);
 
         // Turn vibration on and set intensity.
         // NOTE: you will probably need to ask VIBRATE permisssion in Manifest.
-        setVibrate(true);
-        setVibrateIntensity(30);
+//        setVibrate(true);
+//        setVibrateIntensity(30);
     }
 
     private void loadMainActivity(){
