@@ -2103,7 +2103,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457611075191</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="debugged the errors 2">
+      <created>1457611101740</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1457611101740</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2153,7 +2159,8 @@
     <MESSAGE value="Added home page" />
     <MESSAGE value="Home linked from intro" />
     <MESSAGE value="debugged the errors" />
-    <option name="LAST_COMMIT_MESSAGE" value="debugged the errors" />
+    <MESSAGE value="debugged the errors 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="debugged the errors 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
