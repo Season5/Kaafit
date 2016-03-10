@@ -34,6 +34,7 @@ public class MainActivity extends AppIntro {
 
         // Hide Skip/Done button.
         showSkipButton(false);
+        setProgressButtonEnabled(false);
         showDoneButton(false);
 //        setProgressButtonEnabled(true);
 
